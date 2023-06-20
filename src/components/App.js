@@ -6,9 +6,9 @@ const App = () => {
  const[shapes,setShapes]=useState([]);
   const Toggle=()=>{
     if(square==="Square"){
-    setShapes([...shapes,<div key={shapes.length}className="square">Square</div>
+    setShapes([...shapes,<div key={shapes.length}className="square">Square</div>])
     }else if(circle==="Circle"){
-    setShapes([...shapes,<div key={shapes.length}className="circle">Circle</div>
+    setShapes([...shapes,<div key={shapes.length}className="circle">Circle</div>])
   }
   
   return (
