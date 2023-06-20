@@ -5,7 +5,11 @@ const App = () => {
   return (
     <div id="main">
       <div id="shape-creator">
-        
+        <select onChange={handleShapes}>
+              <option>Square</option>
+              <option>Circle</option>
+        </select>
+    <button className={button}>Add shape</button>
 
       </div>
       <div id="shapes-holder">
